@@ -1,0 +1,30 @@
+1.可见性volatile关键字
+2.争用资源
+3.线程的同步和互斥
+4.wait() 、notify()和notifyAll() 方法的使用
+
+Java Memory Mode
+happens-before 原则
+synchnorized ，volatile & final
+
+Locks & Condition
+
+Java锁机制和等待条件的高层实现
+wait、nitify()
+
+线程安全性
+1、原子性和可见性
+2、死锁
+
+多线程常用的交互模型
+1.生产者-消费者
+2.读写 模型
+3.Future 模型
+4.Worker Thread 模型
+哪些类实现了这些模型，可以借鉴调用
+
+java5并发编程工具
+1.concurrent 包
+2.线程池ExecutorService
+3.Callable & Future
+4.BlockingQueue
