@@ -39,7 +39,7 @@ public class Main {
                     // 完整开平方
                     int destNum = (int) Math.sqrt(sum);
                     if (startNum < destNum && destNum < endNum && destNum * destNum == sum) {
-                        if (judgeHuzhi(startNum, destNum) && judgeHuzhi(startNum, endNum) ) {
+                        if (judgeHuzhi(startNum, destNum) && judgeHuzhi(startNum, endNum)) {
                             System.out.println(m + " ," + n + ", " + destNum);
                         }
                     } else {
