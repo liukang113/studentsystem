@@ -1,7 +1,6 @@
 package com.interviewed.annotation;
 
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.lang.reflect.Method;
 
@@ -13,7 +12,6 @@ public class JunitTest {
 
 
     @Test
-    @Autowired
     public void getRandNum() {
         for (int i = 0; i < 100; i++) {
             int random = (int) ((Math.random() * 100 + 1) % 100);
