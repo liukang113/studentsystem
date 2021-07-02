@@ -1,7 +1,6 @@
 package com.interviewed.thread.pool;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-import com.voxlearning.alps.remote.dubbo.threadpool.ThreadPoolFactory;
 
 import java.util.concurrent.*;
 

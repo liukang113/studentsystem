@@ -1,7 +1,6 @@
 package com.yiqizuoye.pojo.cache;
 
 import com.google.common.collect.Maps;
-import groovy.transform.Synchronized;
 
 import java.util.Map;
 
