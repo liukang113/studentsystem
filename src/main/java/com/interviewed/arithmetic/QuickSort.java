@@ -47,8 +47,12 @@ public class QuickSort {
 
         }
         //此时第一次循环比较结束，关键值的位置已经确定了。左边的值都比关键值小，右边的值都比关键值大，但是两边的顺序还有可能是不一样的，进行下面的递归调用
-        if (start > low) { quickFast(arr, low, start - 1); }
-        if (end < high) { quickFast(arr, end + 1, high);}
+        if (start > low) {
+            quickFast(arr, low, start - 1);
+        }
+        if (end < high) {
+            quickFast(arr, end + 1, high);
+        }
         // 上面最后一句不是基准值的意思是，不是直接用基准值交换，是用基准值所在的索引交换。
     }
 }
