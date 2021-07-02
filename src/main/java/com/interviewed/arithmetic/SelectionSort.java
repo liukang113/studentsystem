@@ -13,11 +13,7 @@ public class SelectionSort {
         printData(arr);
     }
 
-    private static void printData(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println("index " + i + ":" + arr[i]);
-        }
-    }
+
 
     private static void selectSort(int[] arr) {
         // 选择最小的边界，依次比较，然后交换最小值得位置
@@ -37,5 +33,11 @@ public class SelectionSort {
         int temp = arr[i];
         arr[i] = arr[min];
         arr[min] = temp;
+    }
+
+    private static void printData(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("index " + i + ":" + arr[i]);
+        }
     }
 }
