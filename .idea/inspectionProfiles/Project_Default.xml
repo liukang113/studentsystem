@@ -30,7 +30,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="date" />
+      <option name="myAdditionalJavadocTags" value="date,desc:,author:,date:" />
     </inspection_tool>
     <inspection_tool class="JdAbstractClassShouldStartWithAbstractNaming" enabled="false" level="CRITICAL " enabled_by_default="false" />
     <inspection_tool class="JdAccessStaticViaInstance" enabled="false" level="BLOCKER " enabled_by_default="false" />

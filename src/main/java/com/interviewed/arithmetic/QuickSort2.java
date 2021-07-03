@@ -8,14 +8,21 @@ package com.interviewed.arithmetic;
 public class QuickSort2 {
     public static void main(String[] args) {
         int[] arr = {2, 10, 1, 7, 5};
-        quickSortArchive(arr);
+        quickSortArchive(arr, 0, arr.length - 1);
         printData(arr);
     }
 
 
+    private static void quickSortArchive(int[] arr, int lef, int right) {
+        if(lef>=right){
+            return;
+        }
+        int partitionIndex = partition(arr,lef,right);
 
-    private static void quickSortArchive(int[] arr) {
-        
+    }
+
+    private static int partition(int[] arr, int lef, int right) {
+        return 0;
     }
 
     private static void printData(int[] arr) {
