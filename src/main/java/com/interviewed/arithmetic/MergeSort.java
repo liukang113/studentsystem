@@ -11,7 +11,7 @@ package com.interviewed.arithmetic;
  */
 public class MergeSort {
     public static void main(String[] args) {
-        int[] arr = {10, 11, 1, 7, 5, 2};
+        int[] arr = {1, 3, 5, 6, 2, 4, 7};
         mergeSortArchive(arr);
     }
 
@@ -40,8 +40,12 @@ public class MergeSort {
 
         }
         // 如果拆分的子序列中已经排好序，直接将其位置挪下来
-        while (i <= mid) temp[k++] = arr[i++];
-        while (j < arr.length) temp[k++] = arr[j++];
+        while (i <= mid) {
+            temp[k++] = arr[i++];
+        }
+        while (j < arr.length) {
+            temp[k++] = arr[j++];
+        }
 
         printData(temp);
     }

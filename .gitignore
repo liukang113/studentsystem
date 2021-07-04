@@ -8,6 +8,7 @@
 out
 gen
 /.gitignore
+.class
 
 *.a       # 忽略所有 .a 结尾的文件
 !lib.a    # 但 lib.a 除外
