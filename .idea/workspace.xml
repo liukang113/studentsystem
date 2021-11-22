@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7de20a12-6096-454a-8f24-58a88b8d2ecd" name="Default Changelist" comment="update pom">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewed/arithmetic/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewed/arithmetic/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewed/arithmetic/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exception/reraise/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewed/arithmetic/QuickSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewed/arithmetic/QuickSort2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewed/arithmetic/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewed/arithmetic/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studentsystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studentsystem.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +37,9 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="localRepository" value="$PROJECT_DIR$/../../repository_test" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../programe_soft/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../programe_soft/apache-maven-3.6.3/conf/settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../program_soft/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../program_soft/apache-maven-3.8.1/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -152,6 +146,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -162,44 +158,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ShellSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewed.arithmetic.BubbleSort" />
-      <module name="studentsystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interviewed.arithmetic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewed.arithmetic.InsertSort" />
-      <module name="studentsystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interviewed.arithmetic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewed.arithmetic.SelectionSort" />
-      <module name="studentsystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interviewed.arithmetic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.User">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,25 +187,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="StructureStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiqizuoye.pojo.stream.StructureStreamTest" />
+      <module name="studentsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiqizuoye.pojo.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exception.reraise.User" />
+      <module name="studentsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exception.reraise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructureStreamTest.test_generate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiqizuoye.pojo.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yiqizuoye.pojo.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.yiqizuoye.pojo.stream.StructureStreamTest" />
+      <option name="METHOD_NAME" value="test_generate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructureStreamTest.test_iterate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiqizuoye.pojo.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yiqizuoye.pojo.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.yiqizuoye.pojo.stream.StructureStreamTest" />
+      <option name="METHOD_NAME" value="test_iterate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.StructureStreamTest" />
+        <item itemvalue="JUnit.StructureStreamTest.test_iterate" />
+        <item itemvalue="JUnit.StructureStreamTest.test_generate" />
         <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +272,12 @@
       <workItem from="1625237491152" duration="859000" />
       <workItem from="1625292995279" duration="1564000" />
       <workItem from="1625297834283" duration="2865000" />
+      <workItem from="1633770582151" duration="1715000" />
+      <workItem from="1634095660605" duration="1347000" />
+      <workItem from="1634097378709" duration="2593000" />
+      <workItem from="1635489230292" duration="1088000" />
+      <workItem from="1635493861590" duration="1579000" />
+      <workItem from="1637573270617" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1615470176983</created>
@@ -341,6 +363,17 @@
     <MESSAGE value="init" />
     <MESSAGE value="update pom" />
     <option name="LAST_COMMIT_MESSAGE" value="update pom" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yiqizuoye/pojo/stream/StructureStreamTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yiqizuoye/pojo/collect/TestStream.java">
