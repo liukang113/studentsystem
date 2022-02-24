@@ -28,12 +28,21 @@ public class ListGroupByTest {
         peopleGroups.add(new PeopleGroup("my", 18, 2));
         peopleGroups.add(new PeopleGroup("my", 19, 1));
         peopleGroups.add(new PeopleGroup("my", 19, 2));
+
         Map<List<? extends Serializable>, Long> collect = peopleGroups.stream().
                 collect(Collectors.groupingBy(peopleGroup ->
-                Arrays.asList(peopleGroup.getName(), peopleGroup.getAge(), peopleGroup.getGender()), Collectors.counting()))
-                ;
+                                Arrays.asList(peopleGroup.getName(), peopleGroup.getAge(), peopleGroup.getGender()),
+                        Collectors.counting()));
         collect.forEach((o, o2) -> {
-            System.out.println("key: " + o+" value:"+o2);
+            System.out.println("key: " + o + " value:" + o2);
         });
+
+        List<PeopleGroup> collect1 =
+                peopleGroups.stream().peek(peopleGroup -> peopleGroup.setAge(peopleGroup.getAge() + 100))
+                        .collect(Collectors.toList());
+        collect1.forEach(peopleGroup -> {
+            System.out.println(peopleGroup.getAge());
+        });
+
     }
 }

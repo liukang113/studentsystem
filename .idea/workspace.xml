@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de20a12-6096-454a-8f24-58a88b8d2ecd" name="Default Changelist" comment="update pom">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exception/reraise/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7de20a12-6096-454a-8f24-58a88b8d2ecd" name="Default Changelist" comment="exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewed/thread/pool/ThreadStanderPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewed/thread/pool/ThreadStanderPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yiqizuoye/pojo/efficient/ListGroupByTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yiqizuoye/pojo/efficient/ListGroupByTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studentsystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studentsystem.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +160,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.User">
+  <component name="RunManager" selected="Application.ListGroupByTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -174,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewed.arithmetic.ShellSort" />
+    <configuration name="FutureFinashed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewed.threadpool.FutureFinashed" />
       <module name="studentsystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interviewed.arithmetic.*" />
+          <option name="PATTERN" value="com.interviewed.threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +187,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructureStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yiqizuoye.pojo.stream.StructureStreamTest" />
+    <configuration name="ListGroupByTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiqizuoye.pojo.efficient.ListGroupByTest" />
       <module name="studentsystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiqizuoye.pojo.stream.*" />
+          <option name="PATTERN" value="com.yiqizuoye.pojo.efficient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetWaitTimeAndReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewed.threadpool.SetWaitTimeAndReturn" />
+      <module name="studentsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewed.threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadStanderPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewed.thread.pool.ThreadStanderPool" />
+      <module name="studentsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewed.thread.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,45 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructureStreamTest.test_generate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentsystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yiqizuoye.pojo.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yiqizuoye.pojo.stream" />
-      <option name="MAIN_CLASS_NAME" value="com.yiqizuoye.pojo.stream.StructureStreamTest" />
-      <option name="METHOD_NAME" value="test_generate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StructureStreamTest.test_iterate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentsystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yiqizuoye.pojo.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yiqizuoye.pojo.stream" />
-      <option name="MAIN_CLASS_NAME" value="com.yiqizuoye.pojo.stream.StructureStreamTest" />
-      <option name="METHOD_NAME" value="test_iterate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListGroupByTest" />
+        <item itemvalue="Application.FutureFinashed" />
+        <item itemvalue="Application.SetWaitTimeAndReturn" />
+        <item itemvalue="Application.ThreadStanderPool" />
         <item itemvalue="Application.User" />
-        <item itemvalue="Application.StructureStreamTest" />
-        <item itemvalue="JUnit.StructureStreamTest.test_iterate" />
-        <item itemvalue="JUnit.StructureStreamTest.test_generate" />
-        <item itemvalue="Application.ShellSort" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +271,10 @@
       <workItem from="1634097378709" duration="2593000" />
       <workItem from="1635489230292" duration="1088000" />
       <workItem from="1635493861590" duration="1579000" />
-      <workItem from="1637573270617" duration="637000" />
+      <workItem from="1637573270617" duration="2482000" />
+      <workItem from="1642059996353" duration="8334000" />
+      <workItem from="1644982938987" duration="2361000" />
+      <workItem from="1645673184346" duration="1100000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1615470176983</created>
@@ -300,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625238474405</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="exception">
+      <created>1637574115326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637574115326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -362,7 +366,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="update pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pom" />
+    <MESSAGE value="exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -371,6 +376,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/yiqizuoye/pojo/stream/StructureStreamTest.java</url>
           <line>42</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewed/threadpool/SetWaitTimeAndReturn.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewed/threadpool/SetWaitTimeAndReturn.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
