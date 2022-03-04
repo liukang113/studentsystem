@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7de20a12-6096-454a-8f24-58a88b8d2ecd" name="Default Changelist" comment="exception test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studentsystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studentsystem.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +164,7 @@
       <recent name="com.yiqizuoye.pojo.countdownlatch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchDemo2">
+  <component name="RunManager" selected="Application.RedissonOperate">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -203,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListGroupByTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yiqizuoye.pojo.efficient.ListGroupByTest" />
+    <configuration name="GuavaBloomFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewed.redis.GuavaBloomFilter" />
       <module name="studentsystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiqizuoye.pojo.efficient.*" />
+          <option name="PATTERN" value="com.interviewed.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadApply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yiqizuoye.pojo.efficient.MultiThreadApply" />
+    <configuration name="RedissonBloomFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewed.redis.RedissonBloomFilter" />
       <module name="studentsystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiqizuoye.pojo.efficient.*" />
+          <option name="PATTERN" value="com.interviewed.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewed.threadpool.ThreadPoolUtilTest" />
+    <configuration name="RedissonOperate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewed.redis.RedissonOperate" />
       <module name="studentsystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interviewed.threadpool.*" />
+          <option name="PATTERN" value="com.interviewed.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RedissonOperate" />
+        <item itemvalue="Application.GuavaBloomFilter" />
+        <item itemvalue="Application.RedissonBloomFilter" />
         <item itemvalue="Application.CountDownLatchDemo2" />
         <item itemvalue="Application.CompletableFutureException" />
-        <item itemvalue="Application.ThreadPoolUtilTest" />
-        <item itemvalue="Application.MultiThreadApply" />
-        <item itemvalue="Application.ListGroupByTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +281,8 @@
       <workItem from="1645673184346" duration="3837000" />
       <workItem from="1645684658027" duration="26000" />
       <workItem from="1645684703885" duration="110000" />
-      <workItem from="1646135382600" duration="16788000" />
+      <workItem from="1646135382600" duration="17070000" />
+      <workItem from="1646208545150" duration="7034000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1615470176983</created>
@@ -324,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646190658652</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="exception test">
+      <created>1646208521178</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646208521178</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
